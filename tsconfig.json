@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es6",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "removeComments": true,
+    "strictNullChecks": true,
+    "declaration": true
+  },
+  "files": [
+    "./src/secure-string.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
