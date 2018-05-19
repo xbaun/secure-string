@@ -114,5 +114,5 @@ SecureString.decrypt("YrxsICumyhPx1Yh9DuYNVQ==", "password", "salt");
 
 ```javascript
 let encrypted = await SecureString.encrypt("secret text", "password", "salt");
-async encrypted.decrypt("password", "salt");
+await encrypted.decrypt("password", "salt");
 ```
